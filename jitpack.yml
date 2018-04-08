@@ -3,4 +3,4 @@ before_install:
   - ./mvnw -version
   - ./mvnw io.takari.polyglot:polyglot-translate-plugin:0.3.0:translate -Dinput=pom.groovy -Doutput=pom.xml
 install:
-  - ./mvnw clean install
+  - ./mvnw -DskipTests=true clean install
