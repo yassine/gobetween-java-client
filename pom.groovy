@@ -2,7 +2,7 @@ project {
   modelVersion '4.0.0'
   groupId 'com.github.yassine'
   artifactId 'gobetween-java-client'
-  version '0.1.0-SNAPSHOT'
+  version '0.1.2'
   licenses {
     license {
       name 'The Apache License, Version 2.0'

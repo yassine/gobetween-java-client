@@ -29,7 +29,7 @@ public class Gobetween {
       return this;
     }
 
-    GobetweenClient build(){
+    public GobetweenClient build(){
       ObjectMapper mapper = new ObjectMapper();
       mapper.setPropertyNamingStrategy(PropertyNamingStrategy.SNAKE_CASE);
       mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
